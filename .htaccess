@@ -1,0 +1,8 @@
+#---------------- Establish a custom 404 file not found page -------------------
+ErrorDocument 404 http://forestherbs.net/Resourses/includes/404.php
+
+#---------------- Disable directory listing ------------------------------------
+Options -Indexes
+
+#---------------- Disable server signature -------------------------------------
+ServerSignature off
